@@ -47,15 +47,15 @@
               <div class="card-body">
                 <h6 class="card-title fw-bold"><?php echo $event['nama_event']; ?></h6>
                 <div class="d-flex align-items-center mb-1">
-                  <img src="\RameinCuy\View\Images\Calendar_Days.png" class="me-2" style="width: 16px;">
+                  <img src="\RameinCuy\View\Images\Calendar_Days.png" class="me-2" style="width: 16px; height: 16px;">
                   <span class="text-muted"><?php echo $event['tanggal_event']; ?></span>
                 </div>
                 <div class="d-flex align-items-center mb-1">
-                  <img src="\RameinCuy\View\Images\Clock.png" class="me-2" style="width: 16px;">
+                  <img src="\RameinCuy\View\Images\Clock.png" class="me-2" style="width: 16px; height: 16px;">
                   <span class="text-muted"><?php echo $event['waktu_event']; ?></span>
                 </div>
                 <div class="d-flex align-items-center">
-                  <img src="\RameinCuy\View\Images\location.png" class="me-2" style="width: 16px;">
+                  <img src="\RameinCuy\View\Images\location.png" class="me-2" style="width: 16px; height: 16px;">
                   <span class="text-muted"><?php echo $event['lokasi_event']; ?></span>
                 </div>
               </div>
